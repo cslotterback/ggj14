@@ -307,7 +307,7 @@ MonoBehaviour:
   - {fileID: 100004}
   - {fileID: 100006}
   - {fileID: 100002}
-  currentShape: 0
+  currentShape: 1
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
