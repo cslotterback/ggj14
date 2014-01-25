@@ -51,6 +51,7 @@
      <Compile Include="Assets\src\PlayerSwitch.cs" />
      <Compile Include="Assets\src\Shape.cs" />
      <Compile Include="Assets\src\moveDriver.cs" />
+     <Compile Include="Assets\testingshitscript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
