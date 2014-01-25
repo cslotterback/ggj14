@@ -3,8 +3,8 @@ using System.Collections;
 
 public class TextBehavior : MonoBehaviour {
 
-	[SerializeField]
-	private bool isQuit = false;
+	[SerializeField] private bool isQuit = false;
+	[SerializeField] private bool isTest = false;
 
 	void Start(){
 
@@ -26,6 +26,9 @@ public class TextBehavior : MonoBehaviour {
 		Debug.Log ("text clicked");
 		if (isQuit == true) {
 			Application.Quit ();
+		} else if (isTest == true) {
+			Application.LoadLevel ("TestLevel");
+			Debug.Log ("load tester");
 		} else {
 			Application.LoadLevel ("TestLevel");
 		}
